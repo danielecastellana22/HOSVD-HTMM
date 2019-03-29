@@ -1,8 +1,0 @@
-.gitignore
-results
-plots
-other_datasets
-model\class\noBRML\IO_SVD_BHTMM.m
-debug_*
-inex05_stats.m
-plot_results.m
