@@ -1,4 +1,4 @@
-classdef SVD_BHTMM < handle
+classdef TF_BHTMM < handle
     %INPUTMODEL Summary of this class goes here
     %   Detailed explanation goes here
     
@@ -38,7 +38,7 @@ classdef SVD_BHTMM < handle
     
     methods
         
-        function obj = SVD_BHTMM(C_,L_,M_, min_lag_, max_lag_, alpha_zero_,alpha_lamb_,gamma_lag_,phi_exp_,alpha_pr_,alpha_em_)           
+        function obj = TF_BHTMM(C_,L_,M_, min_lag_, max_lag_, alpha_zero_,alpha_lamb_,gamma_lag_,phi_exp_,alpha_pr_,alpha_em_)           
             obj.C = C_+1;
             obj.bottomCh = obj.C;
             obj.L = L_;
