@@ -1,7 +1,8 @@
+.gitignore
 results
 plots
 other_datasets
-C:\Users\Daniele Castellana\OneDrive - University of Pisa\project\matlab\__old_projects__\SVD_BHTMM (IJCNN19)\model\class\noBRML\IO_SVD_BHTMM.m
+model\class\noBRML\IO_SVD_BHTMM.m
 debug_*
 inex05_stats.m
 plot_results.m
